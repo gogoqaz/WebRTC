@@ -25,6 +25,7 @@ assert_not_contains() {
 }
 
 assert_contains scripts/build.sh 'TVOS="\$\{TVOS:-false\}"' "TVOS build toggle"
+assert_contains scripts/build.sh 'ROOT_DIR="\$\(pwd\)"' "repository root tracking"
 assert_contains scripts/build.sh 'build_tvOS\(\)' "tvOS build function"
 assert_contains scripts/build.sh 'apply_tvOS_patches\(\)' "tvOS source patch function"
 assert_contains scripts/build.sh 'patches/tvos/\*.patch' "tvOS source patch glob"
