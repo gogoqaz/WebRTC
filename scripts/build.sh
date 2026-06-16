@@ -4,7 +4,7 @@
 ## Created by Stasel
 ## BSD-3 License
 ## 
-## Example usage (from the repository root): BRANCH=branch-heads/6978 MACOS=true IOS=true TVOS=true BUILD_VP9=true sh scripts/build.sh
+## Example usage (from the repository root): BRANCH=branch-heads/7339 MACOS=true IOS=true TVOS=true BUILD_VP9=true sh scripts/build.sh
 
 # Configs
 DEBUG="${DEBUG:-false}"
